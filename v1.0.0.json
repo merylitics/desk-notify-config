@@ -1,5 +1,5 @@
 {
-"prod_apiUrl":"https://deskalerts.merilytics.com"
+"prod_apiUrl":"https://deskalerts.merilytics.com",
 "prod_uiRender":"https://deskalerts.merilytics.com",
 "dev_apiUrl": "http://172.16.0.52:8001",
 "dev_uiRender":"https://appsuat.merilytics.com/DN"
