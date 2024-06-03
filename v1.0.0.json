@@ -1,4 +1,6 @@
 {
+"local_apiUrl" = "http://localhost:3006",
+"local_uiRender" = "http://localhost:3000",
 "prod_apiUrl":"https://deskalerts.merilytics.com",
 "prod_uiRender":"https://deskalerts.merilytics.com",
 "dev_apiUrl": "http://172.16.0.52:8001",
