@@ -1,8 +1,36 @@
 {
-"local_apiUrl":"http://localhost:3006",
-"local_uiRender":"http://localhost:3000",
-"prod_apiUrl":"https://deskalerts.merilytics.com",
-"prod_uiRender":"https://deskalerts.merilytics.com",
-"dev_apiUrl": "http://172.16.0.52:8001",
-"dev_uiRender":"https://appsuat.merilytics.com/DN"
+  "urls": {
+    "prod": {
+      "api": "https://deskalerts.merilytics.com",
+      "ui": "https://deskalerts.merilytics.com"
+    },
+    "dev": {
+      "api": "http://172.16.0.52:8001",
+      "ui": "https://appsuat.merilytics.com/DN"
+    },
+    "local": {
+      "api": "http://localhost:3006",
+      "ui": "http://localhost:3000"
+    }
+  },
+
+  "autoUpdater": {
+    "enableAutoUpdates": false,
+    "config": {
+      "autoDownload": true,
+      "allowDowngrade": true,
+      "fullChunkSize": null,
+      "allowPrerelease": true,
+      "disableWebInstaller": true,
+      "autoRunAppAfterInstall": true
+    },
+    "seedUrlData": {
+      "provider": "github",
+      "owner": "merylitics",
+      "repo": "merilytics-deskalerts-autoupdater",
+      "token": "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",
+      "releaseType": "release"
+    }
+  }
 }
+
