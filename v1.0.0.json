@@ -31,6 +31,15 @@
       "token": "Z2hwX3VwQWZ1UFNlZkY5SFNjcm43UHBkSmNmN1hDS0lrejFQdzZJUw==",
       "releaseType": "release"
     }
+  },
+
+  "commandLine": {
+    "appendSwitch": [
+      {
+        "enable": true,
+        "switch": "disable-http-cache",
+        "optional_value": null
+      }
+    ]
   }
 }
-
