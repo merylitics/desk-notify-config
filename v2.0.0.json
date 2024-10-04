@@ -1,8 +1,8 @@
 {
   "urls": {
     "prod": {
-      "api": "https://deskalerts.merilytics.com",
-      "ui": "https://deskalerts.merilytics.com"
+      "api": "https://deskalerts.accordion.com",
+      "ui": "https://deskalerts.accordion.com"
     },
     "dev": {
       "api": "http://172.16.0.52:8001",
