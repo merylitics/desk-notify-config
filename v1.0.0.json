@@ -41,5 +41,9 @@
         "optional_value": null
       }
     ]
-  }
+  },
+
+   "applicationName": {
+    "applicationName": "Desk Notify"
+   }
 }
