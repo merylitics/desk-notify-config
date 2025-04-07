@@ -41,5 +41,14 @@
         "optional_value": null
       }
     ]
+  },
+
+  "applicationName": {
+    "applicationName": "Desk Notify"
+   },
+
+  "appIcon":{
+    "url":"https://recruit.accordion.com/internal_assests/logos/DeskNotifyIcon.png"
   }
+  
 }
